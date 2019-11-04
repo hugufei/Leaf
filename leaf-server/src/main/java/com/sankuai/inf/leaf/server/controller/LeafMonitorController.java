@@ -23,7 +23,9 @@ import java.util.Map;
 
 @Controller
 public class LeafMonitorController {
+
     private Logger logger = LoggerFactory.getLogger(LeafMonitorController.class);
+
     @Autowired
     SegmentService segmentService;
 

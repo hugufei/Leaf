@@ -14,6 +14,7 @@ import java.util.List;
 public class Utils {
     private static final Logger logger = LoggerFactory.getLogger(Utils.class);
 
+    // 获取本地ip
     public static String getIp() {
         String ip;
         try {
